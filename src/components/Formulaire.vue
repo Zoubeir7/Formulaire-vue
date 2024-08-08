@@ -86,10 +86,11 @@ export default {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  padding: 20px;
+  padding: 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 800px;
   margin: auto;
+
 }
 
 h1 {
