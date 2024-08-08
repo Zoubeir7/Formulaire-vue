@@ -68,7 +68,7 @@ export default {
       return re.test(email);
     },
     isValidPhone(phone) {
-      const re = /^\d{8}$/;
+      const re = /^\d{4}$/;
       return re.test(phone);
     },
     clearForm() {
@@ -88,7 +88,7 @@ export default {
   border-radius: 8px;
   padding: 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 800px;
+  width: 500px;
   margin: auto;
 
 }
